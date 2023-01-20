@@ -82,11 +82,11 @@ function isAnagram(word, anagram) {
   }
   if (!Object.entries(res).length){
     return true;
-  }else{
+  }
     return false;
   }
 
-  }
+
 console.log(isAnagram('mamba', 'bamba'));
 console.log(isAnagram('mamba', 'mamba'));
 console.log(isAnagram('aaaaa','bbbbb'));
