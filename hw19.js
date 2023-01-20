@@ -8,7 +8,9 @@ const employees = [
     createEmployee(129,"Sasha", 2000, 25000, "Ramat Gan", "Israel"),
     createEmployee(130,"Victor", 2003, 10000, "Arad", "Israel")
 ]
-
+function createEmployee(id, name, birthYear, salary, city, country){
+  return{id, name, birthYear, salary, address:{city, country}}
+}
 //HW #19
 //Task 2
 function getMostPupulatedCountries(employees, counter) {
